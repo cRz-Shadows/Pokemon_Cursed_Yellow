@@ -10,7 +10,8 @@ UsedStrengthText:
 	text_far _UsedStrengthText
 	text_asm
 	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call Delay3
 	jp TextScriptEnd
 

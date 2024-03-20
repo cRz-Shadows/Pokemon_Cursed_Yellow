@@ -57,14 +57,16 @@ MrFujisHousePsyduckText:
 	text_far _MrFujisHousePsyduckText
 	text_asm
 	ld a, PSYDUCK
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 MrFujisHouseNidorinoText:
 	text_far _MrFujisHouseNidorinoText
 	text_asm
 	ld a, NIDORINO
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 MrFujisHouseMrFujiText:

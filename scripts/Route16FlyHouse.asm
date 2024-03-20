@@ -47,7 +47,8 @@ Route16FlyHouseFearowText:
 	ld hl, .Text
 	call PrintText
 	ld a, FEAROW
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

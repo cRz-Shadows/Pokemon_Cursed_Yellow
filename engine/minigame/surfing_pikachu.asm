@@ -2381,7 +2381,8 @@ SurfingPikachuMinigameIntro:
 	call DelayFrame
 	ld a, MUSIC_SURFING_PIKACHU
 	ld c, BANK(Music_SurfingPikachu)
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	xor a
 	ld [wSurfingMinigameIntroAnimationFinished], a
 .loop

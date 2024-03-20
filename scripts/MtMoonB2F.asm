@@ -232,7 +232,8 @@ MtMoonB2FScript_49e15:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	xor a
 	ldh [hJoyHeld], a
 	ld a, ~(A_BUTTON | B_BUTTON)
@@ -368,7 +369,8 @@ MtMoonB2FScript13:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld a, A_BUTTON | B_BUTTON | SELECT | START | D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 	ld a, SCRIPT_MTMOONB2F_SCRIPT14

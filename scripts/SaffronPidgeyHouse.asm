@@ -16,7 +16,8 @@ SaffronPidgeyHousePidgeyText:
 	text_far _SaffronPidgeyHousePidgeyText
 	text_asm
 	ld a, PIDGEY
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 SaffronPidgeyHouseYoungsterText:

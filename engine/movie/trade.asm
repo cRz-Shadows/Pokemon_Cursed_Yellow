@@ -261,7 +261,8 @@ Trade_ShowPlayerMon:
 	ld a, TRADE_BALL_DROP_ANIM
 	call Trade_ShowAnimation ; clears mon pic
 	ld a, [wTradedPlayerMonSpecies]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	xor a
 	ldh [hAutoBGTransferEnabled], a
 	ret
@@ -370,7 +371,8 @@ Trade_ShowEnemyMon:
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a
 	ld a, [wTradedEnemyMonSpecies]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call Trade_Delay100
 	hlcoord 4, 10
 	lb bc, 8, 12

@@ -139,7 +139,8 @@ PokemonTower6FMarowakDepartedText:
 	ld hl, PokemonTower6FGhostWasCubonesMotherText
 	call PrintText
 	ld a, RESTLESS_SOUL
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	ld c, 30
 	call DelayFrames

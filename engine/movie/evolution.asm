@@ -37,11 +37,13 @@ EvolveMon:
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a
 	ld a, [wEvoOldSpecies]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	ld c, BANK(Music_SafariZone)
 	ld a, MUSIC_SAFARI_ZONE
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld c, 80
 	call DelayFrames
 	ld c, 1 ; set PAL_BLACK instead of mon palette
@@ -67,7 +69,8 @@ EvolveMon:
 	ld [wWholeScreenPaletteMonSpecies], a
 	call StopAllMusic
 	ld a, [wWholeScreenPaletteMonSpecies]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld c, 0
 	call EvolutionSetWholeScreenPalette
 	pop af

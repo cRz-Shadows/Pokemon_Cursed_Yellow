@@ -1997,7 +1997,8 @@ PlayedFluteHadEffectText:
 	call StopAllMusic
 	ld a, SFX_POKEFLUTE
 	ld c, BANK(SFX_Pokeflute)
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .musicWaitLoop ; wait for music to finish playing
 	ld a, [wChannelSoundIDs + CHAN3]
 	cp SFX_POKEFLUTE

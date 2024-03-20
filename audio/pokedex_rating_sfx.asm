@@ -18,7 +18,8 @@ PlayPokedexRatingSfx::
 	add hl, bc
 	ld a, [hli]
 	ld c, [hl]
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp PlayDefaultMusic
 
 PokedexRatingSfxPointers:

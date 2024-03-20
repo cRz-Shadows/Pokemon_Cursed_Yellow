@@ -21,7 +21,8 @@ ViridianNicknameHouseSpearowText:
 	ld hl, .Text
 	call PrintText
 	ld a, SPEAROW
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

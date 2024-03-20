@@ -244,7 +244,8 @@ VermilionCityMachopText:
 	text_far _VermilionCityMachopText
 	text_asm
 	ld a, MACHOP
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	ld hl, .StompingTheLandFlatText
 	ret

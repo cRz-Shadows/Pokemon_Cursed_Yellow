@@ -89,19 +89,22 @@ CeruleanMelanieHouseBulbasaurText:
 	text_far MelanieBulbasaurText
 	text_asm
 	ld a, BULBASAUR
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 CeruleanMelanieHouseOddishText:
 	text_far MelanieOddishText
 	text_asm
 	ld a, ODDISH
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 CeruleanMelanieHouseSandshrewText:
 	text_far MelanieSandshrewText
 	text_asm
 	ld a, SANDSHREW
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd

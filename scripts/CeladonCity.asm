@@ -98,7 +98,8 @@ CeladonCityPoliwrathText:
 	text_far _CeladonCityPoliwrathText
 	text_asm
 	ld a, POLIWRATH
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 CeladonCityRocket1Text:

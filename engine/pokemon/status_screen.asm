@@ -187,7 +187,8 @@ StatusScreen:
 	jr .continue
 .playRegularCry
 	ld a, [wcf91]
-	call PlayCry ; play Pokémon cry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .continue
 	call WaitForTextScrollButtonPress ; wait for button
 	pop af

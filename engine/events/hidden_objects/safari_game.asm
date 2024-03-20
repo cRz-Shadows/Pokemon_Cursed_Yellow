@@ -34,7 +34,8 @@ SafariZoneGameOver:
 	call StopAllMusic
 	ld c, BANK(SFX_Safari_Zone_PA)
 	ld a, SFX_SAFARI_ZONE_PA
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .waitForMusicToPlay
 	ld a, [wChannelSoundIDs + CHAN5]
 	cp SFX_SAFARI_ZONE_PA

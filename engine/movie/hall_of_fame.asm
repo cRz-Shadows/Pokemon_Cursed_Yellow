@@ -35,7 +35,8 @@ AnimateHallOfFame:
 	ldh [hWY], a
 	ld c, BANK(Music_HallOfFame)
 	ld a, MUSIC_HALL_OF_FAME
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld hl, wPartySpecies
 	ld c, $ff
 .partyMonLoop
@@ -163,7 +164,8 @@ HoFDisplayAndRecordMonInfo:
 	jr .asm_7033c
 .asm_70336
 	ld a, [wHoFMonSpecies]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .asm_7033c
 	jp HoFRecordMonInfo
 

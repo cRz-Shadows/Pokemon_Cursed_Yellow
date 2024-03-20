@@ -12,7 +12,8 @@ PewterNidoranHouseNidoranText:
 	text_far _PewterNidoranHouseNidoranText
 	text_asm
 	ld a, NIDORAN_M
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

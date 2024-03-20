@@ -1,8 +1,8 @@
 ; an alternate start for MeetRival which has a different first measure
 Music_RivalAlternateStart::
 	ld c, BANK(Music_MeetRival)
-	ld a, MUSIC_MEET_RIVAL
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld hl, wChannelCommandPointers
 	ld de, Music_MeetRival_Ch1_AlternateStart
 	call Audio1_OverwriteChannelPointer
@@ -20,8 +20,8 @@ Audio1_OverwriteChannelPointer:
 ; an alternate tempo for MeetRival which is slightly slower
 Music_RivalAlternateTempo::
 	ld c, BANK(Music_MeetRival)
-	ld a, MUSIC_MEET_RIVAL
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld de, Music_MeetRival_Ch1_AlternateTempo
 	jr FinishAlternateRivalMusic
 
@@ -45,8 +45,8 @@ Music_Cities1AlternateTempo::
 	ld c, 100
 	call DelayFrames ; wait for the fade-out to finish
 	ld c, BANK(Music_Cities1)
-	ld a, MUSIC_CITIES1
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld hl, wChannelCommandPointers
 	ld de, Music_Cities1_Ch1_AlternateTempo
 	jp Audio1_OverwriteChannelPointer

@@ -42,8 +42,8 @@ PalletTownDefaultScript:
 	call StopAllMusic
 	ld a, BANK(Music_MeetProfOak)
 	ld c, a
-	ld a, MUSIC_MEET_PROF_OAK ; "oak appears" music
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	SetEvent EVENT_OAK_APPEARED_IN_PALLET
 
 	; trigger the next script

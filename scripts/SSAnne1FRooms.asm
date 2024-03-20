@@ -67,7 +67,8 @@ SSAnne1FRoomsWigglytuffText:
 	text_far _SSAnne1FRoomsWigglytuffText
 	text_asm
 	ld a, WIGGLYTUFF
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 SSAnne1FRoomsGentleman1BattleText:

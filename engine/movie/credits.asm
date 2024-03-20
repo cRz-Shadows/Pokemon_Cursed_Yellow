@@ -30,7 +30,8 @@ HallOfFamePC:
 	call CreditsCopyTileMapToVRAM
 	ld c, BANK(Music_Credits)
 	ld a, MUSIC_CREDITS
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld c, 128
 	call DelayFrames
 	xor a

@@ -28,7 +28,8 @@ SSAnne2FDefaultScript:
 	call StopAllMusic
 	ld c, BANK(Music_MeetRival)
 	ld a, MUSIC_MEET_RIVAL
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld a, [wCoordIndex]
 	ldh [hSavedCoordIndex], a
 	ld a, HS_SS_ANNE_2F_RIVAL

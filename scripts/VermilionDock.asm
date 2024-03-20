@@ -43,7 +43,8 @@ VermilionDockSSAnneLeavesScript:
 	call StopAllMusic
 	ld c, BANK(Music_Surfing)
 	ld a, MUSIC_SURFING
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	farcall LoadSmokeTileFourTimes
 	xor a
 	ld [wSpritePlayerStateData1ImageIndex], a

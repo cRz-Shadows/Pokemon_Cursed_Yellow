@@ -73,7 +73,8 @@ ENDC
 .walking
 	ld c, BANK(Music_MeetRival)
 	ld a, MUSIC_MEET_RIVAL
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	xor a
 	ldh [hJoyHeld], a
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN

@@ -30,7 +30,8 @@ ENDC
 	call StopAllMusic
 	ld c, BANK(Music_MeetRival)
 	ld a, MUSIC_MEET_RIVAL
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ResetEvent EVENT_POKEMON_TOWER_RIVAL_ON_LEFT
 	ld a, [wCoordIndex]
 	cp $1

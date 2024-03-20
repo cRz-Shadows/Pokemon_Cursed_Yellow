@@ -14,7 +14,8 @@ CeladonMansion1FMeowthText:
 	text_far _CeladonMansion1FMeowthText
 	text_asm
 	ld a, MEOWTH
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 CeladonMansion1FGrannyText:
@@ -34,14 +35,16 @@ CeladonMansion1FClefairyText:
 	text_far _CeladonMansion1FClefairyText
 	text_asm
 	ld a, CLEFAIRY
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 CeladonMansion1FNidoranFText:
 	text_far _CeladonMansion1FNidoranFText
 	text_asm
 	ld a, NIDORAN_F
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 CeladonMansion1FManagersSuiteSignText:

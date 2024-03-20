@@ -19,5 +19,6 @@ CopycatsHouse1FChanseyText:
 	text_far _CopycatsHouse1FChanseyText
 	text_asm
 	ld a, CHANSEY
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd

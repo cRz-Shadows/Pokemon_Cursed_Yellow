@@ -52,7 +52,8 @@ PokemonTower7FScript_60d2a:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	xor a
 	ldh [hJoyHeld], a
 	ld a, ~(A_BUTTON | B_BUTTON)
@@ -190,7 +191,8 @@ PokemonTower7FScript8:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld a, A_BUTTON | B_BUTTON | SELECT | START | D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 	ld a, SCRIPT_POKEMONTOWER7F_SCRIPT9

@@ -16,7 +16,8 @@ VermilionPidgeyHousePidgeyText:
 	text_far _VermilionPidgeyHousePidgeyText
 	text_asm
 	ld a, PIDGEY
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

@@ -83,7 +83,8 @@ SSAnneB1FRoomsMachokeText:
 	text_far _SSAnneB1FRoomsMachokeText
 	text_asm
 	ld a, MACHOKE
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 SSAnneB1FRoomsSailor1BattleText:

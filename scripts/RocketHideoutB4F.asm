@@ -100,7 +100,8 @@ RocketHideoutB4FScript_455a5:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call UpdateSprites
 	call Delay3
 	call UpdateSprites
@@ -244,7 +245,8 @@ RocketHideoutB4FScript11:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld a, A_BUTTON | B_BUTTON | SELECT | START | D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 	ld a, SCRIPT_ROCKETHIDEOUTB4F_SCRIPT12

@@ -59,7 +59,8 @@ DaycareGentlemanText:
 	pop af
 	jr c, .depositedPikachuIntoDayCare
 	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jr .asm_562e3
 
 .depositedPikachuIntoDayCare
@@ -214,7 +215,8 @@ DaycareGentlemanText:
 	callfar IsThisPartymonStarterPikachu
 	jr c, .withdrewPikachuFromDayCare
 	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jr .asm_56430
 
 .withdrewPikachuFromDayCare

@@ -242,7 +242,8 @@ BillsPCDeposit:
 	jr .asm_215cf
 .asm_215c9
 	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .asm_215cf
 	callabd_ModifyPikachuHappiness PIKAHAPPY_DEPOSITED
 	ld a, PARTY_TO_BOX
@@ -305,7 +306,8 @@ BillsPCWithdraw:
 	jr .asm_21666
 .asm_21660
 	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .asm_21666
 	xor a ; BOX_TO_PARTY
 	ld [wMoveMonType], a
@@ -342,7 +344,8 @@ BillsPCRelease:
 	call RemovePokemon
 	call WaitForSoundToFinish
 	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld hl, MonWasReleasedText
 	call PrintText
 	jp BillsPCMenu

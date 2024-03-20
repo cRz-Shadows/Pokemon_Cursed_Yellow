@@ -70,7 +70,8 @@ SummerBeachHousePikachuText:
 	ld hl, .SummerBeachHousePikachuText
 	call PrintText
 	ld a, PIKACHU
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

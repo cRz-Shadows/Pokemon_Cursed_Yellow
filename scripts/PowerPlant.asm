@@ -111,6 +111,7 @@ PowerPlantZapdosBattleText:
 	text_far _PowerPlantZapdosBattleText
 	text_asm
 	ld a, ZAPDOS
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd

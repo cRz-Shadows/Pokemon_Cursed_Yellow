@@ -151,7 +151,8 @@ PokemonFanClubClefairyText:
 	ld hl, .Text
 	call PrintText
 	ld a, CLEFAIRY
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 
@@ -164,7 +165,8 @@ PokemonFanClubSeelText:
 	ld hl, .Text
 	call PrintText
 	ld a, SEEL
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

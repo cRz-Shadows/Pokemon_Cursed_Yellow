@@ -293,7 +293,8 @@ CableClub_DoBattleOrTradeAgain:
 .trading
 	ld c, BANK(Music_GameCorner)
 	ld a, MUSIC_GAME_CORNER
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jr CallCurrentTradeCenterFunction
 
 PleaseWaitString:

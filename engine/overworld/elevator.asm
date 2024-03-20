@@ -18,7 +18,8 @@ ShakeElevator::
 	push bc
 	ld c, BANK(SFX_Collision_1)
 	ld a, SFX_COLLISION
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	pop bc
 	ld c, 2
 	call DelayFrames
@@ -29,7 +30,8 @@ ShakeElevator::
 	call StopAllMusic
 	ld c, BANK(SFX_Safari_Zone_PA)
 	ld a, SFX_SAFARI_ZONE_PA
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .musicLoop
 	ld a, [wChannelSoundIDs + CHAN5]
 	cp SFX_SAFARI_ZONE_PA

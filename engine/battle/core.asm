@@ -975,7 +975,8 @@ PlayBattleVictoryMusic:
 	call StopAllMusic
 	ld c, BANK(Music_DefeatedTrainer)
 	pop af
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp Delay3
 
 HandlePlayerMonFainted:
@@ -1059,8 +1060,8 @@ RemoveFaintedPlayerMon:
 	callfar PlayPikachuSoundClip
 	jr .printText
 .notPlayerPikachu
-	ld a, [wBattleMonSpecies]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .printText
 	ld hl, PlayerMonFaintedText
 	call PrintText
@@ -1468,8 +1469,8 @@ EnemySendOutFirstMon:
 	ldh [hStartTileID], a
 	hlcoord 15, 6
 	predef AnimateSendingOutMon
-	ld a, [wEnemyMonSpecies2]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call DrawEnemyHUDAndHPBar
 	ld a, [wCurrentMenuItem]
 	and a
@@ -1817,8 +1818,8 @@ SendOutMon:
 	callfar PlayPikachuSoundClip
 	jr .done
 .playRegularCry
-	ld a, [wcf91]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .done
 	call PrintEmptyString
 	jp SaveScreenTilesToBuffer1

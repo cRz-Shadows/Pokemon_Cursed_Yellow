@@ -143,7 +143,8 @@ VictoryRoad2FMoltresBattleText:
 	text_far _VictoryRoad2FMoltresBattleText
 	text_asm
 	ld a, MOLTRES
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 

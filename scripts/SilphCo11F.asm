@@ -237,7 +237,8 @@ SilphCo11FScript_6229c:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	xor a
 	ldh [hJoyHeld], a
 	ld a, SELECT | START | D_RIGHT | D_LEFT | D_UP | D_DOWN
@@ -424,7 +425,8 @@ SilphCo11FScript12:
 	call StopAllMusic
 	ld c, BANK(Music_MeetJessieJames)
 	ld a, MUSIC_MEET_JESSIE_JAMES
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	ld a, A_BUTTON | B_BUTTON | SELECT | START | D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 	ld a, SCRIPT_SILPHCO11F_SCRIPT13

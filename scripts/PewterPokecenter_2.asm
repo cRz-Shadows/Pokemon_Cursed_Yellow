@@ -33,7 +33,8 @@ PewterJigglypuff::
 	push hl
 	ld c, BANK(Music_JigglypuffSong)
 	ld a, MUSIC_JIGGLYPUFF_SONG
-	call PlayMusic
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	pop hl
 
 .spinMovementLoop

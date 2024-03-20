@@ -543,7 +543,8 @@ TextCommand_SOUND::
 .pokemonCry
 	push de
 	ld a, [hl]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	pop de
 	pop hl
 	pop bc

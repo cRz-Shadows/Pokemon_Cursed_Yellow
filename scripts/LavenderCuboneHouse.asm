@@ -11,7 +11,8 @@ LavenderCuboneHouseCuboneText:
 	text_far _LavenderCuboneHouseCuboneText
 	text_asm
 	ld a, CUBONE
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	jp TextScriptEnd
 
 LavenderCuboneHouseBrunetteGirlText:

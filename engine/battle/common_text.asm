@@ -19,8 +19,8 @@ PrintBeginningBattleText:
 	callfar PlayPikachuSoundClip
 	jr .continue
 .notPikachuBattle
-	ld a, [wEnemyMonSpecies2]
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 .continue
 	ld hl, WildMonAppearedText
 	ld a, [wMoveMissed]

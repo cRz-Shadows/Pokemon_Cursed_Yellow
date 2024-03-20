@@ -37,6 +37,7 @@ MewtwoBattleText:
 	text_far _MewtwoBattleText
 	text_asm
 	ld a, MEWTWO
-	call PlayCry
+	ld e, $3
+	callfar PlayPikachuSoundClip
 	call WaitForSoundToFinish
 	jp TextScriptEnd
