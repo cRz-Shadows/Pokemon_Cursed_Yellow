@@ -1448,13 +1448,13 @@ _ZapdosDexEntry::
 	dex
 
 _MoltresDexEntry::
-	text "A legendary bird"
-	next "#MON. As it"
-	next "flaps its flaming"
+	text "Legends claim"
+	next "this #MON"
+	next "flies the world"
 
-	page "wings, even the"
-	next "night sky will"
-	next "turn red"
+	page "continuously on"
+	next "its magnificent"
+	next "colored wings."
 	dex
 
 _DratiniDexEntry::
