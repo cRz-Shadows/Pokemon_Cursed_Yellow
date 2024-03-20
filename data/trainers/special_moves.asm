@@ -4,6 +4,13 @@
 ;	db 0
 
 SpecialTrainerMoves:
+	db BUG_CATCHER, 1
+	db 1, 1, AMNESIA
+	db 1, 2, AMNESIA
+	db 1, 3, AMNESIA
+	db 1, 4, AMNESIA
+	db 0
+
 	db BUG_CATCHER, 15
 	db 2, 2, TACKLE
 	db 2, 3, STRING_SHOT
@@ -14,8 +21,14 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1
+	db 1, 1, HYPER_FANG
+	db 1, 2, HYPER_FANG
+	db 1, 3, HYPER_FANG
+	db 1, 4, HYPER_FANG
+	db 2, 3, BIND
 	db 2, 3, BIND
 	db 2, 4, BIDE
+	db 2, 3, BIDE
 	db 0
 
 	db MISTY, 1

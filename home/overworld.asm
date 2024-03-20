@@ -240,6 +240,8 @@ OverworldLoopLessDelay::
 	res 2, [hl]
 	xor a
 	ld [wd435], a
+	call DoBikeSpeedup ; if riding a bike and not jumping a ledge
+	call DoBikeSpeedup
 	call DoBikeSpeedup
 	call AdvancePlayerSprite
 	ld a, [wWalkCounter]
@@ -337,23 +339,23 @@ NewBattle::
 
 ; function to make bikes twice as fast as walking
 DoBikeSpeedup::
-	ld a, [wWalkBikeSurfState]
-	dec a ; riding a bike?
-	ret nz
-	ld a, [wd736]
-	bit 6, a
-	ret nz
+	; ld a, [wWalkBikeSurfState]
+	; dec a ; riding a bike?
+	; ret nz
+	; ld a, [wd736]
+	; bit 6, a
+	; ret nz
 	ld a, [wNPCMovementScriptPointerTableNum]
 	and a
 	ret nz
 	ld a, [wCurMap]
 	cp ROUTE_17 ; Cycling Road
 	jr nz, .goFaster
-	ldh a, [hJoyHeld]
+	ld a, [hJoyHeld]
 	and D_UP | D_LEFT | D_RIGHT
 	ret nz
 .goFaster
-	call AdvancePlayerSprite
+	jp AdvancePlayerSprite
 	ret
 
 ; check if the player has stepped onto a warp after having not collided
