@@ -126,6 +126,10 @@ SpecialTrainerMoves:
 	db 5, 3, THUNDER
 	db 0
 
+	db RIVAL1, 1
+	db 1, 2, HYPER_BEAM
+	db 0
+
 	db RIVAL3, 1
 	db 1, 3, EARTHQUAKE
 	db 2, 4, KINESIS
