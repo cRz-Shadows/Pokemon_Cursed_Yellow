@@ -241,8 +241,6 @@ OverworldLoopLessDelay::
 	xor a
 	ld [wd435], a
 	call DoBikeSpeedup ; if riding a bike and not jumping a ledge
-	call DoBikeSpeedup
-	call DoBikeSpeedup
 	call AdvancePlayerSprite
 	ld a, [wWalkCounter]
 	and a
