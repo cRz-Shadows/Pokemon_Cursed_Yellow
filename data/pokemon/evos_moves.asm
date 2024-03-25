@@ -876,7 +876,7 @@ TaurosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, STOMP
+	db 21, SLAM
 	db 28, TAIL_WHIP
 	db 35, LEER
 	db 44, RAGE
