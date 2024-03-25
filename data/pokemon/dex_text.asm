@@ -639,13 +639,13 @@ _KadabraDexEntry::
 	dex
 
 _AlakazamDexEntry::
-	text "A #MON that can"
-	next "memorize anything."
-	next "It never forgets"
+	text "A #MON that is"
+	next "pure beauty."
+	next "You'll never"
 
-	page "what it learns--"
-	next "that's why this"
-	next "#MON is smart"
+	page "forget when"
+	next "you've seen"
+	next "this #MON."
 	dex
 
 _MachopDexEntry::

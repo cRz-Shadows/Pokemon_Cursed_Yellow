@@ -148,7 +148,7 @@ MonsterNames::
 	db "MISSINGNO."
 	db "HAUNTER@@@"
 	db "ABRA@@@@@@"
-	db "ALAKAZAM@@"
+	db "ALAKADOOF@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
 	db "STARMIE@@@"
