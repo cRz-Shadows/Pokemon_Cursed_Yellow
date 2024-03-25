@@ -1069,13 +1069,13 @@ _HitmonchanDexEntry::
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue spans"
-	next "almost 7 feet and"
-	next "moves more freely"
+	text "It wiggles and"
+	next "jiggles so
+	next "cute! I'm not"
 
-	page "than its forelegs."
-	next "Its licks can"
-	next "cause paralysis"
+	page "sure if it"
+	next "belongs in this"
+	next "game, though."
 	dex
 
 _KoffingDexEntry::

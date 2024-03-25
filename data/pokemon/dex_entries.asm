@@ -646,7 +646,7 @@ KadabraDexEntry:
 	text_end
 
 AlakazamDexEntry:
-	db "PSI@"
+	db "PERFECT@"
 	db 4,11
 	dw 1060
 	text_far _AlakazamDexEntry
@@ -947,7 +947,7 @@ HitmonchanDexEntry:
 	text_end
 
 LickitungDexEntry:
-	db "LICKING@"
+	db "SLIMY@"
 	db 3,11
 	dw 1440
 	text_far _LickitungDexEntry
@@ -1087,7 +1087,7 @@ PinsirDexEntry:
 	text_end
 
 TaurosDexEntry:
-	db "WILD BULL@"
+	db "ELEPHANT@"
 	db 4,7
 	dw 1950
 	text_far _TaurosDexEntry
