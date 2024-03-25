@@ -1070,8 +1070,8 @@ _HitmonchanDexEntry::
 
 _LickitungDexEntry::
 	text "It wiggles and"
-	next "jiggles so
-	next "cute! I'm not"
+	next "jiggles so"
+	next "cutely! I'm not"
 
 	page "sure if it"
 	next "belongs in this"

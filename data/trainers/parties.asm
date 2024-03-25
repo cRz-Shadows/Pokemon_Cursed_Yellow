@@ -492,9 +492,9 @@ Rival1Data:
 ; Oak's Lab
 	db 5, EEVEE, 0
 ; Route 22
-	db $FF, 9, SPEAROW, 8, EEVEE, 0
+	db $FF, 9, SPEAROW, 8, EEVEE, 10, LICKITUNG, 0
 ; Cerulean City
-	db $FF, 18, SPEAROW, 15, SANDSHREW, 15, RATTATA, 17, EEVEE, 0
+	db $FF, 18, SPEAROW, 15, SANDSHREW, 20, LICKITUNG, 17, EEVEE, 0
 
 ProfOakData:
 ; Unused

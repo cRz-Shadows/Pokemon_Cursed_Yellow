@@ -97,12 +97,12 @@ _ViridianForestYoungster5AfterBattleText::
 	done
 
 _ViridianForestYoungster6Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "I saw a strange"
+	line "#MON in the"
+	cont "forest!"
 
-	para "You should carry"
-	line "extras!"
+	para "You should be"
+	line "extra cautious!"
 	done
 
 _ViridianForestTrainerTips1Text::
