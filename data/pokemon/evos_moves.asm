@@ -359,6 +359,7 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 1, AMNESIA
 	db 0
 
 NidoranFEvosMoves:
