@@ -73,7 +73,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VIRIDIAN_FOREST,               17, 24 ; $33
 	map_const MUSEUM_1F,                     10,  4 ; $34
 	map_const MUSEUM_2F,                      7,  4 ; $35
-	map_const PEWTER_GYM,                     5,  7 ; $36
+	map_const PEWTER_GYM,                     5, 72 ; $36
 	map_const PEWTER_NIDORAN_HOUSE,           4,  4 ; $37
 	map_const PEWTER_MART,                    4,  4 ; $38
 	map_const PEWTER_SPEECH_HOUSE,            4,  4 ; $39

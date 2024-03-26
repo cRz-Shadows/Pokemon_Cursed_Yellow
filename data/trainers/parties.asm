@@ -60,8 +60,8 @@ TrainerDataPointers:
 
 YoungsterData:
 ; Route 3
-	db 11, RATTATA, EKANS, 0
-	db 14, SPEAROW, 0
+	db 99, ALAKAZAM, ALAKAZAM, 0
+	db 99, ALAKAZAM, 0
 ; Mt. Moon 1F
 	db 10, RATTATA, RATTATA, ZUBAT, 0
 ; Route 24
@@ -85,8 +85,8 @@ YoungsterData:
 BugCatcherData:
 ; Viridian Forest
 	db 12, GENGAR, CATERPIE, 0
-	db 6, METAPOD, CATERPIE, METAPOD, 0
-	db 10, CATERPIE, 0
+	db 12, METAPOD, CATERPIE, METAPOD, 0
+	db 18, LICKITUNG, 0
 ; Route 3
 	db 10, CATERPIE, WEEDLE, CATERPIE, 0
 	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
@@ -109,8 +109,8 @@ BugCatcherData:
 
 LassData:
 ; Route 3
-	db 9, PIDGEY, PIDGEY, 0
-	db 10, RATTATA, NIDORAN_M, 0
+	db 99, ALAKAZAM, ALAKAZAM, 0
+	db 19, TAUROS, TAUROS, 0
 	db 14, JIGGLYPUFF, 0
 ; Route 4
 	db 31, PARAS, PARAS, PARASECT, 0
@@ -136,7 +136,7 @@ LassData:
 	db 23, BELLSPROUT, WEEPINBELL, 0
 	db 23, ODDISH, GLOOM, 0
 ; Viridian Forest
-	db 6, NIDORAN_F, NIDORAN_M, 0
+	db 9, RAICHU, RAICHU, 0
 
 SailorData:
 ; SS Anne Stern

@@ -1,15 +1,20 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	text "You look out of"
+	line "breath! You"
+	cont "need more cardio!"
+	
+	para "I'm DWAYNE."
+	line "But everybody"
+	cont "calls me"
+	
+	para "THE BROCK!"
+	line "I believe in hard"
+	cont "defence and"
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the rock-type!"
+	para "excessively"
+	line "training my"
+	cont "#MON!"
 
 	para "Do you still want"
 	line "to challenge me?"
@@ -26,9 +31,9 @@ _PewterGymBrockPostBattleAdviceText::
 	line "for fights. Some"
 	cont "see them as pets."
 
-	para "I'm in training to"
-	line "become a #MON"
-	cont "breeder."
+	para "I'm trying to"
+	line "get #MON to"
+	cont "breed."
 
 	para "If you take your"
 	line "#MON training"
@@ -78,11 +83,11 @@ _PewterGymTM34NoRoomText::
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "You must"
+	line "have cheated."
 
-	para "As proof of your"
-	line "victory, here's"
+	para "Oh well. Since"
+	line "you won, here's"
 	cont "the BOULDERBADGE!"
 
 	para "<PLAYER> received"
@@ -119,7 +124,9 @@ _PewterGymCooltrainerMEndBattleText::
 
 	para "Light years isn't"
 	line "time! It measures"
-	cont "distance!"
+	cont "distance! Good"
+	cont "luck! You'll"
+	cont "need it!"
 	prompt
 
 _PewterGymCooltrainerMAfterBattleText::

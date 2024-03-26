@@ -5,3 +5,5 @@ Tauros > Trumpeter
 Spearow > Murkrow
 Fearow > Honchkrow
 Onix > Steelix
+
+

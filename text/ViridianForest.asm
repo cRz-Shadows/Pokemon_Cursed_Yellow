@@ -63,19 +63,19 @@ _ViridianForestYoungster4AfterBattleText::
 	done
 
 _ViridianForestCooltrainerFBattleText::
-	text "Hi, do you have a"
+	text "Ew, you have a"
 	line "PIKACHU?"
 	done
 
 _ViridianForestCooltrainerFEndBattleText::
-	text "Oh no,"
-	line "really?"
+	text "Wait,"
+	line "really??"
 	prompt
 
 _ViridianForestCooltrainerFAfterBattleText::
-	text "I looked forever,"
-	line "but I never found"
-	cont "a PIKACHU here!"
+	text "PIKACHU are so,"
+	line "yesterday! I"
+	cont "love my RAICHU!"
 	done
 
 _ViridianForestYoungster5BattleText::
@@ -92,8 +92,8 @@ _ViridianForestYoungster5EndBattleText::
 _ViridianForestYoungster5AfterBattleText::
 	text "A METAPOD is cool"
 	line "because its"
-	cont "attack is its"
-	cont "defense!"
+	cont "attack is"
+	cont "explosive!!!"
 	done
 
 _ViridianForestYoungster6Text::
@@ -112,6 +112,12 @@ _ViridianForestTrainerTips1Text::
 	line "avoid battles,"
 	cont "stay away from"
 	cont "grassy areas!"
+	cont "Good luck with"
+	cont "that though."
+	cont "Somebody really"
+	cont "needs to mow"
+	cont "the grass around"
+	cont "here..."
 	done
 
 _ViridianForestUseAntidoteSignText::
