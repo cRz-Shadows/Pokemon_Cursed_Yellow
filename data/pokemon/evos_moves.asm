@@ -258,8 +258,8 @@ SpearowEvosMoves:
 ; Learnset
 	db 9, LEER
 	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
+	db 22, WING_ATTACK
+	db 29, NIGHT_SHADE
 	db 36, AGILITY
 	db 0
 
@@ -359,8 +359,6 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
 	db 0
 
 NidoranFEvosMoves:
@@ -484,8 +482,6 @@ GastlyEvosMoves:
 	db EVOLVE_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
-	db 27, HYPNOSIS
-	db 35, DREAM_EATER
 	db 0
 
 ScytherEvosMoves:
@@ -583,10 +579,10 @@ OnixEvosMoves:
 	db 0
 ; Learnset
 	db 15, BIND
-	db 19, ROCK_THROW
-	db 25, RAGE
+	db 19, DRAGON_RAGE
+	db 25, DIG
 	db 33, SLAM
-	db 43, HARDEN
+	db 43, DOUBLE_EDGE
 	db 0
 
 FearowEvosMoves:
@@ -594,10 +590,10 @@ FearowEvosMoves:
 	db 0
 ; Learnset
 	db 9, LEER
-	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
+	db 17, FURY_ATTACK
+	db 25, WING_ATTACK
+	db 31, NIGHT_SHADE
+	db 39, AGILITY
 	db 0
 
 PidgeyEvosMoves:
@@ -1075,7 +1071,7 @@ VulpixEvosMoves:
 	db 0
 ; Learnset
 	db 16, QUICK_ATTACK
-	db 21, ROAR
+	db 21, HYPER_VOICE
 	db 28, CONFUSE_RAY
 	db 35, FLAMETHROWER
 	db 42, FIRE_SPIN
@@ -1725,8 +1721,6 @@ HaunterEvosMoves:
 	db EVOLVE_TRADE, 1, GENGAR
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
 	db 0
 
 AbraEvosMoves:

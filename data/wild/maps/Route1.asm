@@ -5,7 +5,7 @@ Route1WildMons:
 	db  2, RATTATA
 	db  3, LICKITUNG
 	db  2, PIDGEY
-	db  3, PIDGEY
+	db  3, SPEAROW
 	db  5, PIDGEY
 	db  4, RATTATA
 	db  6, PIDGEY

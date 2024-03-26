@@ -939,13 +939,13 @@ _GengarDexEntry::
 	dex
 
 _OnixDexEntry::
-	text "Burrows at high"
-	next "speed in search"
-	next "of food. The"
+	text "Metal streak"
+	next "speeds by."
+	next "STEELIX the"
 
-	page "tunnels it leaves"
-	next "are used as homes"
-	next "by DIGLETTs"
+	page "#MON! Too"
+	next "cool for Gen 1"
+	next "it's STEELIX!"
 	dex
 
 _DrowzeeDexEntry::

@@ -5,7 +5,7 @@ Route2WildMons:
 	db  4, RATTATA
 	db  4, NIDORAN_M
 	db  4, NIDORAN_F
-	db  5, PIDGEY
+	db  5, SPEAROW
 	db  6, NIDORAN_M
 	db  6, NIDORAN_F
 	db  7, PIDGEY

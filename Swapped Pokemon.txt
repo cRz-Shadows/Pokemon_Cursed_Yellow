@@ -2,3 +2,6 @@ Alakazam > Alakadoof
 Lickitung > Slime
 Moltres > Ho-Oh
 Tauros > Trumpeter
+Spearow > Murkrow
+Fearow > Honchkrow
+Onix > Steelix

@@ -856,7 +856,7 @@ GengarDexEntry:
 	text_end
 
 OnixDexEntry:
-	db "ROCK SNAKE@"
+	db "SNAAAKKEE!@"
 	db 28,10
 	dw 4630
 	text_far _OnixDexEntry

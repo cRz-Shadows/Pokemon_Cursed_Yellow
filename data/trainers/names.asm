@@ -33,7 +33,7 @@ TrainerNames::
 	li "COOLTRAINER♂"
 	li "COOLTRAINER♀"
 	li "BRUNO"
-	li "BROCK"
+	li "THE BROCK"
 	li "MISTY"
 	li "LT.SURGE"
 	li "ERIKA"
