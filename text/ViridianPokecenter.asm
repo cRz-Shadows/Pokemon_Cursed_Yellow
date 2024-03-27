@@ -14,3 +14,8 @@ _ViridianPokecenterCooltrainerMText::
 	para "They don't charge"
 	line "any money either!"
 	done
+
+_NurseJoyBattleText::
+	text "We're fighting"
+	line "now."
+	done

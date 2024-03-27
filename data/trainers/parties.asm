@@ -12,7 +12,7 @@ TrainerDataPointers:
 	dw BikerData
 	dw BurglarData
 	dw EngineerData
-	dw UnusedJugglerData
+	dw JoyData
 	dw FisherData
 	dw SwimmerData
 	dw CueBallData
@@ -314,8 +314,9 @@ EngineerData:
 	db 21, MAGNEMITE, 0
 	db 18, MAGNEMITE, MAGNEMITE, MAGNETON, 0
 
-UnusedJugglerData:
-; none
+JoyData:
+; viridian pokecenter
+	db 30, CHANSEY, 0
 
 FisherData:
 ; SS Anne 2F Rooms

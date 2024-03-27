@@ -25,3 +25,7 @@ _PewterPokecenterJigglypuffText::
 	text "JIGGLYPUFF: Puu"
 	line "pupuu!"
 	done
+
+_ChanseyBattleText::
+	text "Chansey :(..."
+	done
