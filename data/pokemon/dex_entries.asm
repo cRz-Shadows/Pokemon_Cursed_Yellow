@@ -338,14 +338,14 @@ RaticateDexEntry:
 	text_end
 
 SpearowDexEntry:
-	db "TINY BIRD@"
+	db "DARKBIRD@"
 	db 1,0
 	dw 40
 	text_far _SpearowDexEntry
 	text_end
 
 FearowDexEntry:
-	db "BEAK@"
+	db "COOL HAT@"
 	db 3,11
 	dw 840
 	text_far _FearowDexEntry
@@ -989,7 +989,7 @@ ChanseyDexEntry:
 	text_end
 
 TangelaDexEntry:
-	db "VINE@"
+	db "FLUFF@"
 	db 3,3
 	dw 770
 	text_far _TangelaDexEntry
@@ -1213,28 +1213,28 @@ ZapdosDexEntry:
 	text_end
 
 MoltresDexEntry:
-	db "FLAME@"
+	db "GEN 2@"
 	db 6,7
 	dw 1320
 	text_far _MoltresDexEntry
 	text_end
 
 DratiniDexEntry:
-	db "DRAGON@"
+	db "BUBBLE@"
 	db 5,11
 	dw 70
 	text_far _DratiniDexEntry
 	text_end
 
 DragonairDexEntry:
-	db "DRAGON@"
+	db "DINOSAUR!?@"
 	db 13,1
 	dw 360
 	text_far _DragonairDexEntry
 	text_end
 
 DragoniteDexEntry:
-	db "DRAGON@"
+	db "SLASHYBOI@"
 	db 7,3
 	dw 4630
 	text_far _DragoniteDexEntry

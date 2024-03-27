@@ -199,23 +199,23 @@ _RaticateDexEntry::
 	dex
 
 _SpearowDexEntry::
-	text "Inept at flying"
-	next "high. However, it"
-	next "can fly around"
+	text "It's so cute"
+	next "and shady! You"
+	next "can probably pet"
 
-	page "very fast to"
-	next "protect its ter-"
-	next "ritory"
+	page "it if you're"
+	next "careful enough."
+	next "Try it!"
 	dex
 
 _FearowDexEntry::
 	text "A #MON that"
-	next "dates back many"
-	next "years. If it"
+	next "took way too"
+	next "long to discover."
 
-	page "senses danger, it"
-	next "flies high and"
-	next "away, instantly"
+	page "Like seriously,"
+	next "did nobody ever"
+	next "evolve one?"
 	dex
 
 _EkansDexEntry::
@@ -1130,11 +1130,11 @@ _ChanseyDexEntry::
 _TangelaDexEntry::
 	text "Its identity is"
 	next "obscured by masses"
-	next "of thick, blue"
+	next "of brown fluff."
 
-	page "vines. The vines"
-	next "are said to never"
-	next "stop growing"
+	page "Some people find"
+	next "it cute. I've not"
+	next "seen the show."
 	dex
 
 _KangaskhanDexEntry::
@@ -1458,33 +1458,33 @@ _MoltresDexEntry::
 	dex
 
 _DratiniDexEntry::
-	text "The existence of"
-	next "this mythical"
-	next "#MON was only"
+	text "Just a cute"
+	next "little bubble"
+	next "#MON."
 
-	page "recently confirmed"
-	next "by a fisherman"
-	next "who caught one"
+	page "It definitely"
+	next "won't evolve into"
+	next "something weird."
 	dex
 
 _DragonairDexEntry::
-	text "According to a"
-	next "witness, its body"
-	next "was surrounded by"
+	text "Suddenly it's"
+	next "a little"
+	next "dinosaur!?"
 
-	page "a strange aura"
-	next "that gave it a"
-	next "mystical look"
+	page "Too bad there's"
+	next "no DINOSAUR"
+	next "type for #MON."
 	dex
 
 _DragoniteDexEntry::
-	text "It is said that"
-	next "this #MON lives"
-	next "somewhere in the"
+	text "Well now it's"
+	next "even bigger!"
+	next "I bet if it"
 
-	page "sea and that it"
-	next "flies. However, it"
-	next "is only a rumor"
+	page "evolved again,"
+	next "the STEEL type"
+	next "might make sense."
 	dex
 
 _MewtwoDexEntry::

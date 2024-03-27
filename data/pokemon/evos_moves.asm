@@ -541,14 +541,11 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, BIND
-	db 27, ABSORB
-	db 29, VINE_WHIP
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
-	db 45, SLAM
-	db 48, GROWTH
+	db 15, HYPER_VOICE
+	db 20, DOUBLE_TEAM
+	db 27, SLAM
+	db 29, BODY_SLAM
+	db 32, BONE_CLUB
 	db 0
 
 MissingNo1FEvosMoves:
@@ -928,11 +925,11 @@ DragoniteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
-	db 60, HYPER_BEAM
+	db 10, BITE
+	db 20, SLAM
+	db 33, SLASH
+	db 36, HORN_DRILL
+	db 50, TAIL_WHIP
 	db 0
 
 MissingNo43EvosMoves:
@@ -1120,26 +1117,24 @@ MissingNo57EvosMoves:
 
 DratiniEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 30, DRAGONAIR
+	db EVOLVE_LEVEL, 15, DRAGONAIR
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 30, SLAM
-	db 40, DRAGON_RAGE
+	db 10, BITE
+	db 16, SLAM
+	db 22, HYPER_FANG
 	db 50, HYPER_BEAM
 	db 0
 
 DragonairEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 55, DRAGONITE
+	db EVOLVE_LEVEL, 30, DRAGONITE
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
-	db 55, HYPER_BEAM
+	db 10, BITE
+	db 18, SLAM
+	db 22, HYPER_FANG
+	db 50, HYPER_BEAM
 	db 0
 
 KabutoEvosMoves:

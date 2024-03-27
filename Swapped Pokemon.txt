@@ -5,5 +5,7 @@ Tauros > Trumpeter
 Spearow > Murkrow
 Fearow > Honchkrow
 Onix > Steelix
-
-
+Dratini > Koromon
+Dragonair > Agumon
+Dragonite > Greymon
+Tangela > Kuriboh

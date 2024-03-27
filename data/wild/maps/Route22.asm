@@ -6,8 +6,8 @@ Route22WildMons:
 	db  3, RATTATA
 	db  4, NIDORAN_M
 	db  4, NIDORAN_F
-	db  5, MANKEY
 	db  2, POLIWAG
+	db  7, DRATINI
 	db  4, SPEAROW
 	db  6, SPEAROW
 	end_grass_wildmons
