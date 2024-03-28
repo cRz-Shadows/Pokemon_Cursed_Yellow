@@ -140,7 +140,7 @@ Moves:
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
-	move SKULL_BASH,   CHARGE_EFFECT,              100, NORMAL,       100, 15
+	move SKULL_BASH,   CHARGE_EFFECT,              200, NORMAL,       100, 15
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 15
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      10, NORMAL,       100, 35
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 20

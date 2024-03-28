@@ -1122,8 +1122,8 @@ DratiniEvosMoves:
 ; Learnset
 	db 10, BITE
 	db 16, SLAM
-	db 22, HYPER_FANG
-	db 50, HYPER_BEAM
+	db 24, HYPER_FANG
+	db 32, HYPER_BEAM
 	db 0
 
 DragonairEvosMoves:
@@ -1132,8 +1132,10 @@ DragonairEvosMoves:
 	db 0
 ; Learnset
 	db 10, BITE
-	db 18, SLAM
-	db 22, HYPER_FANG
+	db 15, DRAGON_RAGE
+	db 19, SLAM
+	db 30, HYPER_FANG
+	db 41, FLAMETHROWER
 	db 50, HYPER_BEAM
 	db 0
 
