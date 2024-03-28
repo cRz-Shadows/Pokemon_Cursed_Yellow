@@ -100,9 +100,9 @@ ViridianCityOldManStartCatchTrainingScript:
 	ld [wListScrollOffset], a
 	ld a, BATTLE_TYPE_OLD_MAN
 	ld [wBattleType], a
-	ld a, 5
+	ld a, 500
 	ld [wCurEnemyLVL], a
-	ld a, RATTATA
+	ld a, MEW
 	ld [wCurOpponent], a
 	ret
 
