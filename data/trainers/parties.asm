@@ -153,7 +153,7 @@ SailorData:
 
 JrTrainerMData:
 ; Pewter Gym
-	db 9, DIGLETT, SANDSHREW, 0
+	db 10, GOLEM, RHYDON, OMASTAR, KABUTOPS, AERODACTYL, KANGASKHAN, 0
 ; Route 24/Route 25
 	db 14, RATTATA, EKANS, 0
 ; Route 24
