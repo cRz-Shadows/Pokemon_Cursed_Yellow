@@ -28,7 +28,7 @@ ResetStatusAndHalveMoneyOnBlackout::
 	ld de, wPlayerMoney + 2
 	ld hl, wAmountMoneyWon + 2
 	ld c, $3
-	predef_jump AddBCDPredef
+	predef AddBCDPredef
 .lostmoney
 	ld hl, wd732
 	set 2, [hl]
