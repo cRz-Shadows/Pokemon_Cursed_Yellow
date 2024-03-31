@@ -25,10 +25,10 @@ BluesHouse_TextPointers:
 
 BluesHouseDaisySittingText:
 	text_asm
-	CheckEvent EVENT_GOT_TOWN_MAP
-	jr nz, .got_town_map
-	CheckEvent EVENT_GOT_POKEDEX
-	jr nz, .give_town_map
+	; CheckEvent EVENT_GOT_TOWN_MAP
+	; jr nz, .got_town_map
+	; CheckEvent EVENT_GOT_POKEDEX
+	; jr nz, .give_town_map
 	ld hl, BluesHouseDaisyRivalAtLabText
 	call PrintText
 	jr .done

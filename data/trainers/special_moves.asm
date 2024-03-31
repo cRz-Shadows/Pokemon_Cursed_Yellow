@@ -21,14 +21,19 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1
-	db 1, 1, HYPER_FANG
-	db 1, 2, HYPER_FANG
-	db 1, 3, HYPER_FANG
-	db 1, 4, HYPER_FANG
+	db 1, 1, METRONOME
+	db 1, 2, METRONOME
+	db 1, 3, METRONOME
+	db 1, 4, METRONOME
 	db 2, 3, BIND
 	db 2, 3, BIND
 	db 2, 4, BIDE
 	db 2, 3, BIDE
+	db 3, 1, EARTHQUAKE
+	db 3, 2, EARTHQUAKE
+	db 3, 3, EARTHQUAKE
+	db 3, 4, EARTHQUAKE
+
 	db 0
 
 	db MISTY, 1

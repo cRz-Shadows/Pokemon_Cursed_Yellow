@@ -1,7 +1,10 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "NO MAP!!!"
+
+	para "NO, YOU CAN'T"
+	line "HAVE IT!!!"
+
+	para "GO AWAY!"
 	done
 
 _BluesHouseDaisyOfferMapText::

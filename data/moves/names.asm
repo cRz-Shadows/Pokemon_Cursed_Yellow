@@ -88,7 +88,7 @@ MoveNames::
 	li "THUNDER WAVE"
 	li "THUNDER"
 	li "ROCK THROW"
-	li "EARTHQUAKE"
+	li "APRIL FOOLS"
 	li "FISSURE"
 	li "DIG"
 	li "TOXIC"
