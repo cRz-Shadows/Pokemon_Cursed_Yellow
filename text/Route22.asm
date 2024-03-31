@@ -1,13 +1,15 @@
 _Route22Rival1DefeatedText::
-	text "Awww!"
+	text "I feel like"
+	line "such a fool!"
 	line "You just lucked"
 	cont "out!"
 	prompt
 
 _Route22Rival1VictoryText::
 	text "<RIVAL>: What?"
-	line "Why do I have 2"
-	cont "#MON?"
+	line "How do I have"
+	cont "such cool"
+    cont "#MON?"
 
 	para "You should catch"
 	cont "some more too!"
@@ -61,7 +63,7 @@ _Route22RivalAfterBattleText1::
 
 	para "You should quit"
 	line "dawdling and get"
-	cont "a move on!"
+	cont "a schmove on!"
 	done
 
 _Route22RivalBeforeBattleText2::
