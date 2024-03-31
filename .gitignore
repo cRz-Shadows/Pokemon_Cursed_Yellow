@@ -28,6 +28,7 @@
 # save game files
 *.sgm
 *.sav
+*.ss1
 *.rtc
 *.sn*
 *.sa*

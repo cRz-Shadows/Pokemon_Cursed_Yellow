@@ -281,6 +281,14 @@ PalletTownGirlText:
 	text_end
 
 PalletTownFisherText:
+	text_asm
+	lb bc, MEWTWO, 1
+	call GivePokemon
+
+	ld hl, .PalletTownFisherTextTemp
+	call PrintText
+	jp TextScriptEnd
+.PalletTownFisherTextTemp:
 	text_far _PalletTownFisherText
 	text_end
 

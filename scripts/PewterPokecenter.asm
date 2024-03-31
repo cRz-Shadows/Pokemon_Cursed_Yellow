@@ -6,7 +6,6 @@ PewterPokecenter_Script:
 	ld hl, wd492
 	set 7, [hl]
 	call Serial_TryEstablishingExternallyClockedConnection
-	call EnableAutoTextBoxDrawing
 	ret
 
 PewterPokecenter_TextPointers:
@@ -54,7 +53,7 @@ PewterPokecenterChanseyText:
 	ld [wCurOpponent], a
 	ld a, 2
 	ld [wTrainerNo], a
-	ld a, $4 ; new script
+	ld a, $3 ; new script
 	ld [wPewterPokecenterCurScript], a
 	ld [wCurMapScript], a
 	ld hl, .NurseJoyBattleTextText
