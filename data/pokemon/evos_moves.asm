@@ -289,7 +289,6 @@ SlowbroEvosMoves:
 	db 0
 ; Learnset
 	db 18, DISABLE
-	db 22, HEADBUTT
 	db 27, GROWL
 	db 33, WATER_GUN
 	db 37, WITHDRAW
@@ -391,7 +390,6 @@ CuboneEvosMoves:
 ; Learnset
 	db 10, BONE_CLUB
 	db 13, TAIL_WHIP
-	db 18, HEADBUTT
 	db 25, LEER
 	db 31, FOCUS_ENERGY
 	db 38, THRASH
@@ -613,7 +611,6 @@ SlowpokeEvosMoves:
 	db 0
 ; Learnset
 	db 18, DISABLE
-	db 22, HEADBUTT
 	db 27, GROWL
 	db 33, WATER_GUN
 	db 40, AMNESIA
@@ -741,7 +738,6 @@ DrowzeeEvosMoves:
 ; Learnset
 	db 12, DISABLE
 	db 17, CONFUSION
-	db 24, HEADBUTT
 	db 29, POISON_GAS
 	db 32, PSYCHIC_M
 	db 37, MEDITATE
@@ -1551,7 +1547,6 @@ HypnoEvosMoves:
 ; Learnset
 	db 12, DISABLE
 	db 17, CONFUSION
-	db 24, HEADBUTT
 	db 33, POISON_GAS
 	db 37, PSYCHIC_M
 	db 43, MEDITATE
@@ -1694,7 +1689,6 @@ MarowakEvosMoves:
 ; Learnset
 	db 10, BONE_CLUB
 	db 13, TAIL_WHIP
-	db 18, HEADBUTT
 	db 25, LEER
 	db 33, FOCUS_ENERGY
 	db 41, THRASH
