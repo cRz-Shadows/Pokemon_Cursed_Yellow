@@ -25,14 +25,14 @@ SpecialTrainerMoves:
 	db 1, 2, METRONOME
 	db 1, 3, METRONOME
 	db 1, 4, METRONOME
-	db 2, 3, BIND
-	db 2, 3, BIND
-	db 2, 4, BIDE
+	db 2, 1, BIND
+	db 2, 2, BIND
 	db 2, 3, BIDE
-	db 3, 1, EARTHQUAKE
-	db 3, 2, EARTHQUAKE
-	db 3, 3, EARTHQUAKE
-	db 3, 4, EARTHQUAKE
+	db 2, 4, BIDE
+	db 3, 1, HEADBUTT
+	db 3, 2, HEADBUTT
+	db 3, 3, HEADBUTT
+	db 3, 4, HEADBUTT
 
 	db 0
 
