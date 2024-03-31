@@ -83,8 +83,9 @@ _PewterGymTM34NoRoomText::
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "You must"
-	line "have cheated."
+	text "You"
+	line "must have"
+	cont "cheated."
 
 	para "Oh well. Since"
 	line "you won, here's"

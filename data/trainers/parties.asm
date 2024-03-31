@@ -317,6 +317,8 @@ EngineerData:
 JoyData:
 ; viridian pokecenter
 	db 30, CHANSEY, 0
+; Pewter pokecenter
+	db 100, CHANSEY, 0
 
 FisherData:
 ; SS Anne 2F Rooms

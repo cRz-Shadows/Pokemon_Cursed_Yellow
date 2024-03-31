@@ -358,7 +358,6 @@ RocketPic::        INCBIN "gfx/trainers/rocket.pic"
 CooltrainerMPic::  INCBIN "gfx/trainers/cooltrainerm.pic"
 CooltrainerFPic::  INCBIN "gfx/trainers/cooltrainerf.pic"
 BrunoPic::         INCBIN "gfx/trainers/bruno.pic"
-BrockPic::         INCBIN "gfx/trainers/brock.pic"
 MistyPic::         INCBIN "gfx/trainers/misty.pic"
 LtSurgePic::       INCBIN "gfx/trainers/lt.surge.pic"
 ErikaPic::         INCBIN "gfx/trainers/erika.pic"
@@ -378,6 +377,7 @@ JessieJamesPic::   INCBIN "gfx/trainers/jessiejames.pic"
 SECTION "Trainer Pics 2", ROMX
 
 JoyPic::           INCBIN "gfx/trainers/joy.pic"
+BrockPic::         INCBIN "gfx/trainers/brock.pic"
 
 
 SECTION "Pics 7", ROMX

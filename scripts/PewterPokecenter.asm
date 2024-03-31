@@ -52,11 +52,13 @@ PewterPokecenterChanseyText:
 	call Delay3
 	ld a, OPP_JOY
 	ld [wCurOpponent], a
-	ld a, 1
+	ld a, 2
 	ld [wTrainerNo], a
 	ld a, $4 ; new script
 	ld [wPewterPokecenterCurScript], a
 	ld [wCurMapScript], a
+	ld hl, .NurseJoyBattleTextText
+	call PrintText
 	jp TextScriptEnd
 .NurseJoyBattleTextText
 	text_far _ChanseyBattleText

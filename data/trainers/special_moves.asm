@@ -179,4 +179,11 @@ SpecialTrainerMoves:
 	db 6, 3, QUICK_ATTACK
 	db 0
 
+	db JOY, 2
+	db 1, 1, HYPER_BEAM
+	db 1, 2, HYPER_BEAM
+	db 1, 3, HYPER_BEAM
+	db 1, 4, HYPER_BEAM
+	db 0
+
 	db -1 ; end

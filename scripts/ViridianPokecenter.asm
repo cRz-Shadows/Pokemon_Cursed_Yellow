@@ -33,9 +33,14 @@ ViridianPokecenterNurseText:
 	ld a, $4 ; new script
 	ld [wViridianPokecenterCurScript], a
 	ld [wCurMapScript], a
+	ld hl, .NurseJoyDefeatedText
+	call PrintText
 	jp TextScriptEnd
 .NurseJoyBattleTextText
 	text_far _NurseJoyBattleText
+	text_end
+.NurseJoyDefeatedText
+	text_far _NurseJoyDefeatedText
 	text_end
 
 ViridianPokecenterPostBattle:

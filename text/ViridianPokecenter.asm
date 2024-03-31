@@ -19,3 +19,11 @@ _NurseJoyBattleText::
 	text "We're fighting"
 	line "now."
 	done
+
+_NurseJoyDefeatedText::
+	text "Chansey will"
+	line "heal you."
+
+	para "I'm not talking"
+	line "to you."
+	done
